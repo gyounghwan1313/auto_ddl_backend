@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "auto-ddl-backend-ver1"
+version = "0.1.0"
+description = ""
+authors = ["gyounghwan1313 <gyounghwan1002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+uvicorn = "^0.33.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
